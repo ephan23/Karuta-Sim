@@ -178,6 +178,18 @@ $("#btnTheater").click(function() {
     updateProgress();
 })
 
+/* Ballroom */
+$("#btnBallroom").click(function() {
+    action = "Ballroom";
+    performAction();
+    entertainment = 100;
+    thirst -= 15;
+    food -= 10;
+
+    $(".list-group").append('<li class="list-group-item">' + action + "</li>");
+    updateProgress();
+})
+
 /* Airplane */
 $("#btnAirplane").click(function() {
     action = "Airplane";
