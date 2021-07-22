@@ -296,6 +296,7 @@ function updateProgress() {
     }
 
     if (food <= 50){
+        $("#foodBar").removeClass("bg-danger");
         $("#foodBar").addClass("bg-warning");
     }
 
@@ -311,6 +312,7 @@ function updateProgress() {
     }
 
     if (thirst <= 50){
+        $("#thirstBar").removeClass("bg-danger");
         $("#thirstBar").addClass("bg-warning");
     }
 
