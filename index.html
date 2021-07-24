@@ -171,78 +171,101 @@
 
       <div class="container">
         <div class="row">
-          <div class="col-4 btn-container">
-            <button type="button" id="btnGas" class="btn btn-light m-2">
-              <img class="small-icon" src="img/gas.svg" alt="" />
-            </button>
-            <button type="button" id="btnTaco" class="btn btn-light m-2">
-              <img class="small-icon" src="img/taco.svg" alt="" />
-            </button>
-            <button type="button" id="btnItalian" class="btn btn-light m-2">
-              <img class="small-icon" src="img/italian.svg" alt="" />
-            </button>
-            <button type="button" id="btnSandwich" class="btn btn-light m-2">
-              <img class="small-icon" src="img/sandwich.svg" alt="" />
-            </button>
-            <button type="button" id="btnFair" class="btn btn-light m-2">
-              <img class="small-icon" src="img/fair.svg" alt="" />
-            </button>
-            <button type="button" id="btnShopping" class="btn btn-light m-2">
-              <img class="small-icon" src="img/shopping.svg" alt="" />
-            </button>
-            <button type="button" id="btnJuice" class="btn btn-light m-2">
-              <img class="small-icon" src="img/juice.svg" alt="" />
-            </button>
-            <button type="button" id="btnCoffee" class="btn btn-light m-2">
-              <img class="small-icon" src="img/coffee.svg" alt="" />
-            </button>
-            <button type="button" id="btnFlower" class="btn btn-light m-2">
-              <img class="small-icon" src="img/flower.svg" alt="" />
-            </button>
-            <button type="button" id="btnNightclub" class="btn btn-light m-2">
-              <img class="small-icon" src="img/nightclub.svg" alt="" />
-            </button>
-            <button type="button" id="btnRing" class="btn btn-light m-2">
-              <img class="small-icon" src="img/ring.svg" alt="" />
-            </button>
-            <button type="button" id="btnTheater" class="btn btn-light m-2">
-              <img class="small-icon" src="img/theater.svg" alt="" />
-            </button>
-            <button type="button" id="btnBallroom" class="btn btn-light m-2">
-              <img class="small-icon" src="img/ballroom.svg" alt="" />
-            </button>
-            <button type="button" id="btnAirplane" class="btn btn-light m-2">
-              <img class="small-icon" src="img/airplane.svg" alt="" />
-            </button>
-            <button type="button" id="btnHouse" class="btn btn-light m-2">
-              <img class="small-icon" src="img/house.svg" alt="" />
-            </button>
+          <div class="col-4 btn-container btnContainer">
+            <a title="+100 Gas"
+              ><button type="button" id="btnGas" class="btn btn-light m-2">
+                <img class="small-icon" src="img/gas.svg" alt="" /></button
+            ></a>
+            <a title="+60 Food"
+              ><button type="button" id="btnTaco" class="btn btn-light m-2">
+                <img class="small-icon" src="img/taco.svg" alt="" /></button
+            ></a>
+            <a title="+60 Food">
+              <button type="button" id="btnItalian" class="btn btn-light m-2">
+                <img class="small-icon" src="img/italian.svg" alt="" /></button
+            ></a>
+            <a title="+40 Food, +20 Drink">
+              <button type="button" id="btnSandwich" class="btn btn-light m-2">
+                <img class="small-icon" src="img/sandwich.svg" alt="" /></button
+            ></a>
+            <a title="+40 Entertainment, +20 Food, +20 Drink">
+              <button type="button" id="btnFair" class="btn btn-light m-2">
+                <img class="small-icon" src="img/fair.svg" alt="" /></button
+            ></a>
+            <a title="+30 AP">
+              <button type="button" id="btnShopping" class="btn btn-light m-2">
+                <img class="small-icon" src="img/shopping.svg" alt="" /></button
+            ></a>
+            <a title="+60 Drink">
+              <button type="button" id="btnJuice" class="btn btn-light m-2">
+                <img class="small-icon" src="img/juice.svg" alt="" /></button
+            ></a>
+            <a title="+60 Drink">
+              <button type="button" id="btnCoffee" class="btn btn-light m-2">
+                <img class="small-icon" src="img/coffee.svg" alt="" /></button
+            ></a>
+            <a title="+100 Entertainment">
+              <button type="button" id="btnFlower" class="btn btn-light m-2">
+                <img class="small-icon" src="img/flower.svg" alt="" /></button
+            ></a>
+            <a title="+40 Drink, +40 Entertainment">
+              <button type="button" id="btnNightclub" class="btn btn-light m-2">
+                <img
+                  class="small-icon"
+                  src="img/nightclub.svg"
+                  alt=""
+                /></button
+            ></a>
+            <a title="Unlock Proposal Option">
+              <button type="button" id="btnRing" class="btn btn-light m-2">
+                <img class="small-icon" src="img/ring.svg" alt="" /></button
+            ></a>
+            <a title="+60 Entertainment">
+              <button type="button" id="btnTheater" class="btn btn-light m-2">
+                <img class="small-icon" src="img/theater.svg" alt="" /></button
+            ></a>
+            <a title="+100 Entertainment, -15 Drink, -10 Food">
+              <button type="button" id="btnBallroom" class="btn btn-light m-2">
+                <img class="small-icon" src="img/ballroom.svg" alt="" /></button
+            ></a>
+            <a title="-10 Entertainment, Reroll Board">
+              <button type="button" id="btnAirplane" class="btn btn-light m-2">
+                <img class="small-icon" src="img/airplane.svg" alt="" /></button
+            ></a>
+            <a title="End Date Early">
+              <button type="button" id="btnHouse" class="btn btn-light m-2">
+                <img class="small-icon" src="img/house.svg" alt="" /></button
+            ></a>
           </div>
           <div class="col-3">
-            <button type="button" id="btnUp" class="btn btn-light mx-5">
-              <img class="small-icon" src="img/up.svg" alt="" />
-            </button>
+            <a title="Move Up">
+              <button type="button" id="btnUp" class="btn btn-light mx-5">
+                <img class="small-icon" src="img/up.svg" alt="" /></button
+            ></a>
             <p></p>
-            <button type="button" id="btnLeft" class="btn btn-light">
-              <img class="small-icon" src="img/left.svg" alt="" />
-            </button>
-            <button type="button" id="btnDown" class="btn btn-light">
-              <img class="small-icon" src="img/down.svg" alt="" />
-            </button>
-            <button type="button" id="btnRight" class="btn btn-light">
-              <img class="small-icon" src="img/right.svg" alt="" />
-            </button>
+            <a title="Move Left">
+              <button type="button" id="btnLeft" class="btn btn-light">
+                <img class="small-icon" src="img/left.svg" alt="" /></button
+            ></a>
+            <a title="Move Down">
+              <button type="button" id="btnDown" class="btn btn-light">
+                <img class="small-icon" src="img/down.svg" alt="" /></button
+            ></a>
+            <a title="Move Right">
+              <button type="button" id="btnRight" class="btn btn-light">
+                <img class="small-icon" src="img/right.svg" alt="" /></button
+            ></a>
             <p></p>
-            <button
-              type="button"
-              id="btnUndo"
-              class="btn btn-outline-dark disabled"
+            <a title="Undo">
+              <button type="button" id="btnUndo" class="btn btn-info disabled">
+                Undo
+              </button>
+            </a>
+            <a title="Reset">
+              <button type="button" id="btnReset" class="btn btn-danger">
+                Reset
+              </button></a
             >
-              Undo
-            </button>
-            <button type="button" id="btnReset" class="btn btn-danger">
-              Reset
-            </button>
           </div>
           <div class="col">
             <h6>Action List:</h6>
