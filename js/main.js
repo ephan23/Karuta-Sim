@@ -168,6 +168,7 @@ $(document).on("click", ".list-group-item", function() {
     $(this).toggleClass("active");
         
     updateValues(i);
+
     $("#gasBar").width(gas[i] + "%");
     $("#gasBar").html(gas[i]);
 
@@ -339,6 +340,7 @@ function updateValues(i) {
     }
 
     if (entertainment[i] <= 50){
+        $("#entertainmentBar").removeClass("bg-danger");
         $("#entertainmentBar").addClass("bg-warning");
     }
 
